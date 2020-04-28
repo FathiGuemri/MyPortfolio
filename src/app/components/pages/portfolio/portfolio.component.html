@@ -1,0 +1,121 @@
+<div class="border-top border-bottom head">
+    
+    <header class="container">
+            <h1 class="ml-5 py-5 text-dark">Portfolio</h1>
+          
+    </header>
+    
+ <div class="container">
+    <ul class="nav  lighten-4 py-4">
+        <li class="nav-item ml-auto">
+          <a class="nav-link active" (click)="case = 'all';web = desktop = PWA  = 'all'">All</a>
+        </li>
+        <li class="nav-item mx-5">
+          <a class="nav-link"  (click)="case = 'web'; web = 'web'; PWA = 'web'">website</a>
+        </li>
+        <li class="nav-item mx-5">
+          <a class="nav-link"   (click)="case = 'desktop'; desktop = 'desktop'">Desktop app</a>
+        </li>
+        <li class="nav-item mx-5">
+            <a class="nav-link"   (click)="case = 'PWA'; PWA = 'PWA'">PWA</a>
+          </li>
+         
+        
+      </ul>
+      <div class="row" [ngSwitch]="case">
+        <div class="col  col-sm-4 mb-4 col-12" *ngSwitchCase="web" >
+            <div class="card animated zoomInDown w-100  p-3 border">
+                <img class="w-100 h-100" src="assets/protfolio/anymove.png"  alt="anymove.com" >
+                <div class="card-body">
+                    <h6 class="rounded bg-light  text-dark px-2 pb-1">AnyMovei</h6>
+                    <a href="https://github.com/FathiGuemri/anymovie" target="_block" class="code rounded bg-light py-1 px-2">
+                      <mdb-icon fas icon="code-branch" class="bg-light text-dark"></mdb-icon>
+                    </a>
+                    <a (click)="showImg(anymovie)" target="_block" class="link rounded bg-light py-1 px-2">
+                      <mdb-icon fas icon="image" class="bg-light text-dark"></mdb-icon>
+                    </a>
+                
+                </div>
+            </div>
+        </div>
+
+        <div class="col col-sm-4 mb-4 col-12" *ngSwitchCase="PWA" >
+          <div class="card animated zoomInDown w-100  p-3 border">
+              <img class="w-100 h-100" src="assets/protfolio/covid.jpg"  alt="anymove.com" >
+              <div class="card-body">
+                  <h6 class="rounded bg-light  text-dark px-2 pb-1">Covid-19</h6>
+                  <a class="code rounded bg-light py-1 px-2" href="https://github.com/FathiGuemri/covid19/tree/covid-pwa" target="_block">
+                    <mdb-icon fas icon="code-branch" class="bg-light text-dark"></mdb-icon>
+                  </a>
+                  <a class="link rounded bg-light py-1 px-2" target="block" href="https://fathiguemri.github.io/covid-19/">
+                    <mdb-icon fas icon="link" class="bg-light text-dark"></mdb-icon>
+                  </a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col col-sm-4 mb-4 col-12" *ngSwitchCase="desktop" >
+        <div class="card animated zoomInDown w-100  p-3 border">
+            <img class="w-100 h-100" src="assets/protfolio/borhan.png"  alt="anymove.com" >
+            <div class="card-body">
+                <h6 class="rounded bg-light  text-dark px-2 pb-1">Borhan App</h6>
+                <!-- <a class="code rounded bg-light py-1 px-2" href="">
+                  <mdb-icon fas icon="code-branch" class="bg-light text-dark"></mdb-icon>
+                </a> -->
+                <a class="link rounded bg-light py-1 px-2" (click)="showImg(borhane)">
+                  <mdb-icon fas icon="image" class="bg-light text-dark"></mdb-icon>
+                </a>
+            </div>
+        </div>
+    </div>
+     
+      </div>
+ </div>
+
+</div>
+
+
+<div class="box animated zoomIn" id="box" #anymovie>
+  <a class="close  bg-danger text-white py-1 px-2" (click)="hideImg(anymovie)">
+    <mdb-icon fas icon="times" ></mdb-icon>
+  </a>
+  <img src="assets/any.png" alt="" srcset="">
+</div>
+
+
+<div class="box animated zoomIn" id="box" #borhane>
+  <a class="close  bg-danger text-white py-1 px-2" (click)="hideImg(borhane)">
+    <mdb-icon fas icon="times" ></mdb-icon>
+  </a>
+  <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
+    <mdb-carousel-item>
+      <div class="view w-100">
+        <img class="d-block w-100" src="assets/protfolio/b-1.png" alt="First slide">
+        <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+      </div>
+     
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+      <div class="view w-100">
+        <img class="d-block w-100" src="assets/protfolio/b-2.png" alt="Second slide">
+        <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
+      </div>
+   
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+      <div class="view w-100">
+        <img class="d-block w-100" src="assets/protfolio/b3.png" alt="Third slide">
+        <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
+      </div>
+     
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+      <div class="view w-100">
+        <img class="d-block w-100" src="assets/protfolio/b-4.png" alt="Third slide">
+        <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
+      </div>
+     
+    </mdb-carousel-item>
+  </mdb-carousel>
+</div>
+

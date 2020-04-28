@@ -1,0 +1,20 @@
+.title-c {
+    background-color: #d8d8d8;
+}
+
+.cer:hover {
+        box-shadow :0 12px 17px rgba(0,0,0,.12);
+        transform: translateY(-5px);
+}
+
+
+@media (max-width: 575.98px) {
+.cer {
+    box-shadow :0 12px 17px rgba(0,0,0,.12);
+}
+.title-c {
+    text-align: center;
+    width: 100% !important;
+}
+     
+  }

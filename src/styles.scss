@@ -1,0 +1,66 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lobster&display=swap');
+
+.fwd-head  {
+    h3 {
+    display: inline-block;
+    position: relative;
+    font-size: 21px;
+    margin: 0 0 30px;
+    z-index: 1;
+    padding-bottom: 7px;
+    &:before {
+        display: block;
+        position: absolute;
+        content: '';
+        width: 100%;
+        background-color: #aaa;
+        height: 2px;
+        bottom: 0;
+    }
+    &:after {
+        display: block;
+    position: absolute;
+    content: '';
+    width: 30px;
+    background-color: #3fba62;
+    height: 2px;
+    bottom: 0;
+    }
+    }
+    
+}
+.more {
+    color: #3fba62 !important;
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(143, 143, 143);
+}
+.carousel-indicators {
+    li {
+        background-color: grey !important;
+        width: 30px !important;
+        height: 3px !important;
+        border: 0 !important;
+        border-radius: 0 !important;
+        cursor: pointer;
+        &.active {
+            background-color: #3fba62 !important;
+        }
+    }
+    
+} 
+.box {
+    .carousel-indicators {
+        background-color: wheat !important;
+        width: fit-content;
+        padding: 10px;
+        
+    }
+}
+.fa-star, .fa-star-half {
+    color: #3578b0 !important;
+}
