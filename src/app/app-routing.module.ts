@@ -13,7 +13,7 @@ const routerOptions: ExtraOptions = {
 const routes: Routes = [
   { path: 'home', component: HomeComponent},
   {
-    path: '',
+    path:'',
     redirectTo: 'home',
     pathMatch: 'full'
   },

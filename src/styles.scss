@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&display=swap');
 
 .fwd-head  {
     h3 {
@@ -38,6 +39,9 @@
 p {
     font-family: 'Dancing Script', cursive;
     color: rgb(143, 143, 143);
+    @media (max-width: 575.98px) {
+        font-family: 'Baloo Paaji 2', cursive;
+    }
 }
 .carousel-indicators {
     li {
@@ -64,3 +68,5 @@ p {
 .fa-star, .fa-star-half {
     color: #3578b0 !important;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

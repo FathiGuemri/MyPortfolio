@@ -1,0 +1,65 @@
+.logo {
+    width: fit-content;
+    
+    border-radius: 50%;
+    background-color: #fff;
+  
+    img {
+        border-radius: 50%;
+        width: 250px;
+        height: 270px;
+        background-color: #f0f0f0;
+        filter: grayscale(100%);
+        &:hover {
+            transform: translate(1.1%, 1.1%);
+        }
+    }
+    
+}
+.header-text {
+    h6 {
+
+    font-family: 'Dancing Script', cursive;
+    font-size: small;
+        color: #aaa;
+    }
+    h1 {
+        font-family:  Poppins,  'Lobster', cursive;
+    }
+    p {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(143, 143, 143);
+    }
+    .fwd-btn {
+
+    font-family: 'Poppins', Helvetica, sans-serif !important;
+        border: 2px solid #3578b0 !important
+    }
+}
+@media (max-width: 575.98px) {
+    .container {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding: 0 !important;
+    }
+    .row {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .logo {
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        img {
+            border-radius: 50%;
+            width: 100px;
+            height: 120px;
+            }
+        }
+        .header-text {
+            text-align:  center !important;
+        }
+     
+}
