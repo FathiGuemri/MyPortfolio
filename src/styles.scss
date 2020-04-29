@@ -37,11 +37,9 @@
 }
 
 p {
-    font-family: 'Dancing Script', cursive;
+  
     color: rgb(143, 143, 143);
-    @media (max-width: 575.98px) {
-        font-family: 'Baloo Paaji 2', cursive;
-    }
+  
 }
 .carousel-indicators {
     li {

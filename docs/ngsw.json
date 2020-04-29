@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1588123091986,
+  "timestamp": 1588126382511,
   "index": "/MyPortfolio/index.html",
   "assetGroups": [
     {
@@ -10,15 +10,15 @@
       "urls": [
         "/MyPortfolio/favicon.ico",
         "/MyPortfolio/index.html",
-        "/MyPortfolio/main-es2015.a0d82bb74ac17e7cf148.js",
-        "/MyPortfolio/main-es5.a0d82bb74ac17e7cf148.js",
+        "/MyPortfolio/main-es2015.92c956cd0668addc0f21.js",
+        "/MyPortfolio/main-es5.92c956cd0668addc0f21.js",
         "/MyPortfolio/manifest.webmanifest",
         "/MyPortfolio/polyfills-es2015.690002c25ea8557bb4b0.js",
         "/MyPortfolio/polyfills-es5.9e286f6d9247438cbb02.js",
         "/MyPortfolio/runtime-es2015.1eba213af0b233498d9d.js",
         "/MyPortfolio/runtime-es5.1eba213af0b233498d9d.js",
         "/MyPortfolio/scripts.a4fddfce7da33fb5f60c.js",
-        "/MyPortfolio/styles.aee61042c6768a61d175.css"
+        "/MyPortfolio/styles.20cf37fb177160e44673.css"
       ],
       "patterns": []
     },
@@ -3498,16 +3498,16 @@
     "/MyPortfolio/fa-solid-900.a7234b107fb98eaf4008.eot": "f39038a6352f3a175f08b250540fdbf920c36aa7",
     "/MyPortfolio/fa-solid-900.fc5dd5b7715de80aae18.svg": "89c3ffa215f239f9eb37e2d0f11935b9da01a3ac",
     "/MyPortfolio/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/MyPortfolio/index.html": "f9bcdb1972b538612e7327953e6e4a393de58bce",
-    "/MyPortfolio/main-es2015.a0d82bb74ac17e7cf148.js": "d0da090d1fa6d3c1aeaeb62b060ea2a126df9e3e",
-    "/MyPortfolio/main-es5.a0d82bb74ac17e7cf148.js": "0ccb491dba06a9fc3529cccd5c068472788fbf86",
+    "/MyPortfolio/index.html": "766b72b6d2a9fd4cc4b28b3c8d3e5e6a8eaa68f4",
+    "/MyPortfolio/main-es2015.92c956cd0668addc0f21.js": "4dc18b82f066af9c686018194651e2f7e3b7d836",
+    "/MyPortfolio/main-es5.92c956cd0668addc0f21.js": "204f139b77f7acec3ef92753ed87a6e6991002d5",
     "/MyPortfolio/manifest.webmanifest": "0acbb5866645193dcce71fdab9b4a05d534af005",
     "/MyPortfolio/polyfills-es2015.690002c25ea8557bb4b0.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
     "/MyPortfolio/polyfills-es5.9e286f6d9247438cbb02.js": "e51a1de4f016cd689dbdbef51043dec9518c4111",
     "/MyPortfolio/runtime-es2015.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/MyPortfolio/runtime-es5.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/MyPortfolio/scripts.a4fddfce7da33fb5f60c.js": "dc3922e9bae30bc5957ed8458ac9e69709b7bb43",
-    "/MyPortfolio/styles.aee61042c6768a61d175.css": "7c595c972f03746ee9795d0b141eafba5b1c707f"
+    "/MyPortfolio/styles.20cf37fb177160e44673.css": "b48d4031ebbbf050758a322f08f2bc1fa0408931"
   },
   "navigationUrls": [
     {
