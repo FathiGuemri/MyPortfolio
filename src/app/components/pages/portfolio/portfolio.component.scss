@@ -160,7 +160,15 @@ figure {
 }
 
 @media (max-width: 575.98px) {
+  .box:last-child {
 
+    position: fixed;
+    top: 50%;
+    .close {
+      top:50%;
+    }
+   
+  }
   .card {
     border-radius: 10px;
     .link, .code {
